@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +10,17 @@
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="click">
+        <button onclick="logo()"></button>
+    </div>
     <section id="first-third">
     <header>
         <h2 id="logo">RUSSIA</h2>
-        <a href="index.html">Home</a>
-        <a href="">Cultura</a> 
-        <a href="">Pontos Turisticos</a>
+        <nav>
+        <a href="../index.html">Home</a>
+        <a href="./cultura.html">Cultura</a> 
+        <a href="./pontosTuristicos.html">Pontos Turisticos</a>
+    </nav>
     </header>
     <section id="half-left">
         <div>
@@ -58,5 +63,12 @@
 </div>
     </section>
 </section>
+<script>
+
+function logo(){
+window.location.href = "../index.html"
+}
+
+</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="click">
+        <button onclick="logo()"></button>
+    </div>
     <header>
         <h2 id="logo">RUSSIA</h2>
         <a href="">Home</a>
-        <a href="historia.html">História</a>
-        <a href="">Cultura</a> 
-        <a href="">Pontos Turisticos</a>
+        <a href="./pages/historia.html">História</a>
+        <a href="./pages/cultura.html">Cultura</a> 
+        <a href="./pages/pontosTuristicos.html">Pontos Turisticos</a>
     </header>
     <section>
         <h1>Descubra <br>a Russia</h1>
@@ -24,5 +27,12 @@
             por dois continentes: a Europa e a Ásia. Com uma linha costeira
             de 37.653 km, limita-se, ao norte, com o oceano Ártico.</strong></p>
     </section>
+    <script>
+
+function logo(){
+window.location.href = "index.html"
+}
+
+    </script>
 </body>
 </html>

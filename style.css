@@ -1,11 +1,36 @@
 body{
-    background-image: url(home.png);
+    background-image: url(./assets/home.png);
     height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    gap: 8rem;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+button{
+    width: 100%;
+    height: 100%;
+    background: none;
+border: none;
+border-radius: 0.8rem;
+    }
+    button:hover{
+        cursor: pointer;
+        border: 2px rgba(255, 255, 255, 0.322) solid;
+        transition: 0.2s;
+    }
+    #click{
+        height: 2.4rem;
+        display: flex;
+        position: relative;
+        left: 0%;
+        position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 13.7rem;
+    height: 4.5rem;
+    }
 html{
     font-size: 62.5%;
 }
@@ -14,7 +39,8 @@ header{
     justify-content: center;
     gap: 5.40rem;
     align-items: end;
-    height: fit-content;
+    height: 8rem;
+    width: 80rem;
     padding: 0;
 }
 a{
@@ -23,7 +49,8 @@ a{
     font-size: 1.93rem;
     font-weight: 500;
     position: relative;
-    top: 4.6rem;
+    left: 20%;
+    bottom: 10%;
 }
 section{
     padding-left: 7.4rem;
@@ -43,11 +70,11 @@ h2{
     font-family: "League Spartan", sans-serif;
     color: white;
     margin: 0;
-    position: absolute;
-    font-size: 2.5rem;
-    right: 116.8rem;
-    top: 4.5rem;
-
+    font-size: 2rem;
+    position: relative;
+    left: 2%;
+    bottom: 10%;
+    user-select: none;
 }
 p{
     width: 45rem;
@@ -60,4 +87,33 @@ p{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+@media (width > 1439px){
+    h2{
+        left: 3.5%;
+        top: 1.3%;
+
+    }
+    h1{
+        font-size: 10rem;
+    }
+    p{
+        font-size: 2.3rem;
+    }
+    section{
+        padding-top: 5.5rem;
+    }
+}
+@media (width > 1600px){
+   h2{
+    position: absolute;
+    left: 3.5rem;
+    top: 6rem;
+}
+header{
+    position: relative;
+    left: 10rem;
+    height: 10rem;
+    padding-inline: 0rem;
+}
 }

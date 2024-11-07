@@ -1,0 +1,111 @@
+
+
+button{
+    width: 100%;
+    height: 100%;
+    background: none;
+border: none;
+border-radius: 0.8rem;
+    }
+    button:hover{
+        cursor: pointer;
+        border: 2px rgba(255, 255, 255, 0.322) solid;
+        transition: 0.2s;
+    }
+    #click{
+        height: 2.4rem;
+        display: flex;
+        position: relative;
+        left: 0%;
+        position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 9rem;
+    height: 3.5rem;
+    }
+body{
+    background-color: #1d2530;
+    color: white;
+    background-image: url(../assets/pontosTuristicos-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.card{
+    max-width: 19%;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+p{
+    font-size: 0.7rem;
+    font-family: Arial;
+    line-height: 0.9rem;
+    letter-spacing: 0.06rem;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+    height: 8.9rem;
+    border-radius: 1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-inline: 6rem;
+    width: fit-content;
+    height: 4rem;
+    align-items: flex-end;
+}
+nav{
+    display: flex;
+    gap: 4rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 3rem;
+    font-family: "League Spartan", sans-serif;
+    font-size: 4rem;
+}
+h2{
+    width: fit-content;
+    margin-inline: auto;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.4rem;
+    margin-block: 0.4rem;
+}
+
+@media (width > 1600px){
+    body{
+        background-position: center;
+    }
+    .card{
+        height: 18rem;
+    }
+        html{
+         font-size: 125%;
+        }
+        nav{
+            position: absolute;
+        top: 1.9rem;
+        }
+}
