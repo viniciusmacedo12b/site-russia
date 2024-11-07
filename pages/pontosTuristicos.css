@@ -50,8 +50,7 @@ p{
     font-size: 0.7rem;
     font-family: Arial;
     line-height: 0.9rem;
-    letter-spacing: 0.06rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 img{
     width: 100%;
@@ -95,11 +94,9 @@ h2{
 }
 
 @media (width > 1600px){
-    body{
-        background-position: center;
-    }
+
     .card{
-        height: 18rem;
+        height: 23rem;
     }
         html{
          font-size: 125%;
@@ -107,5 +104,9 @@ h2{
         nav{
             position: absolute;
         top: 1.9rem;
+        }
+        p{
+            font-size: 1.1rem;
+            line-height: 1.4rem;
         }
 }

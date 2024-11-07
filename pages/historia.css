@@ -127,7 +127,7 @@ span{
 #half-right{
     background-image: url(../assets/historia2-bg1.png);
     background-repeat: no-repeat;
-    width: 200rem;
+    width: 180rem;
     height: 100vh;
     background-position: center;
 }
@@ -201,7 +201,13 @@ span{
      line-height: 2.5rem;
     }
     h2{
-        left: 5rem;
-        top: 1.5rem;
+        left: 6.6rem;
+        top: 0.8rem;
+    }
+    #first-third p{
+        font-size: 1.7rem;
+    }
+    #first-third h1{
+        font-size: 3rem;
     }
  }
